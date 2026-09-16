@@ -84,6 +84,9 @@
           <cocoa key="script"/>
         </parameter>
         <parameter type="boolean" name="callAsyncJavaScript" code="cajs" default="false" description="Allows the evaluation to return a Promise object. When enabled, the JavaScript must return a value. (default: false)" optional="yes">
+          <synonym name="asynchronous JavaScript"/>
+          <synonym name="async"/>
+          <synonym name="promises"/>
         </parameter>
         <result description="The value returned once the script finishes executing.">
           <type type="any"/>
